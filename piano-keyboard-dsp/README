@@ -1,0 +1,11 @@
+This is the C++ module for a piano keyboard Android application. It handles all
+aspects of digital signal processing.
+
+It takes advantage of the https://github.com/google/oboe library to play very
+low latency audio for each of the 88 piano keys. This module is meant to be
+called by Android Java code via the Java Native Interface (JNI).
+
+- `mixer` directory contains logic for sound playback.
+- `effects` directory contains logic for audio manipulation and effects.
+
+Project date: Aug-2018

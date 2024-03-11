@@ -1,0 +1,14 @@
+Digital signal processing for an Audio-to-Midi Interface implemented with an
+Arduino Mega 2560 microcontroller.
+
+The microcontroller is connected to a musical instrument via a 1/4 inch
+connector, and to a computer via USB. Notes played on the instrument would
+get converted into MIDI messages and sent to the computer, where they can be
+processed by a Digital Audio Workstation.
+
+- `SignalAnalyzer` monitors the audio signal and determines the fudamental
+frequency of each note.
+- `MidiEncoder` converts audio frequency and amplitude into a MIDI message, and
+sends it through USB.
+
+Project date: Feb-2021
